@@ -1,5 +1,5 @@
 # CleanMaster
-CleanMaster - Ultimate Cleanup Plugin for SCP:SL
+CleanMaster - a plugin for the final cleanup of SCP:SL
 ## 🔥 Features
 CleanMaster is the ultimate cleanup solution for your SCP:SL server, offering granular control over what gets cleaned and when. Say goodbye to lag and clutter!
 
