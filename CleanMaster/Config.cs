@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Collections.Generic;
 
 namespace CleanMaster
 {
@@ -33,5 +34,21 @@ namespace CleanMaster
 
         [Description("Enable loose items cleanup")]
         public bool EnableItemCleanup { get; set; } = true;
+
+        [Description("List of item types that should never be cleaned (e.g. MicroHID, KeycardO5)")]
+        public List<ItemType> ProtectedItems { get; set; } = new List<ItemType>
+        {
+            ItemType.MicroHID,
+            ItemType.KeycardO5,
+            ItemType.SCP330,
+            ItemType.SCP268,
+            ItemType.SCP207,
+            ItemType.SCP1576, // SCP-1344
+            ItemType.Jailbird,
+            ItemType.ParticleDisruptor
+        };
+
+        [Description("Permission required to use the clean command")]
+        public string CleanCommandPermission { get; set; } = "cleanmaster.clean";
     }
 }
