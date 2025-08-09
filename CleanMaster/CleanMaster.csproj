@@ -32,50 +32,45 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-Publicized, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\CommandSystem.Core.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\CommandSystem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.API, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.API.dll</HintPath>
+    <Reference Include="Exiled.API, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.API.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CreditTags, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.CreditTags.dll</HintPath>
+    <Reference Include="Exiled.CreditTags, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.CreditTags.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomItems, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.CustomItems.dll</HintPath>
+    <Reference Include="Exiled.CustomItems, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.CustomItems.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomRoles, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.CustomRoles.dll</HintPath>
+    <Reference Include="Exiled.CustomRoles, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.CustomRoles.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Events, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.Events.dll</HintPath>
+    <Reference Include="Exiled.Events, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.Events.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Loader, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.Loader.dll</HintPath>
+    <Reference Include="Exiled.Loader, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Permissions, Version=9.6.1.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\Exiled.Permissions.dll</HintPath>
+    <Reference Include="Exiled.Permissions, Version=9.7.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\Exiled.Permissions.dll</HintPath>
     </Reference>
-    <Reference Include="LabApi, Version=1.1.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\LabApi.dll</HintPath>
-    </Reference>
-    <Reference Include="Mirror">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Mirror.dll</HintPath>
-    </Reference>
-    <Reference Include="Mirror.Components">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Mirror.Components.dll</HintPath>
+    <Reference Include="LabApi, Version=1.1.1.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\LabApi.dll</HintPath>
     </Reference>
     <Reference Include="NorthwoodLib, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\NorthwoodLib.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\NorthwoodLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -95,128 +90,151 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Burst">
+      <HintPath>..\..\для плагинов\Unity.Burst.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>..\..\для плагинов\Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\для плагинов\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>..\..\для плагинов\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Csg">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.ProBuilder.Csg.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.ProBuilder.Csg.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.KdTree">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.ProBuilder.KdTree.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.ProBuilder.KdTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Poly2Tri">
+      <HintPath>..\..\для плагинов\Unity.ProBuilder.Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Stl">
+      <HintPath>..\..\для плагинов\Unity.ProBuilder.Stl.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>..\..\для плагинов\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\..\..\Desktop\Новая папка\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\..\для плагинов\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>..\..\для плагинов\Новая папка (2)\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExMod.Exiled.9.6.1\lib\net48\YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing">
-      <HintPath>..\..\..\..\Desktop\Новая папка\zxing.dll</HintPath>
+      <HintPath>..\packages\ExMod.Exiled.9.7.2\lib\net48\YamlDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CleanCommand.cs" />
     <Compile Include="CleanMaster.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

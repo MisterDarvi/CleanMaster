@@ -1,15 +1,16 @@
 ﻿using System.ComponentModel;
 using System.Collections.Generic;
+using InventorySystem.Items;
 
 namespace CleanMaster
 {
     public class Config : Exiled.API.Interfaces.IConfig
     {
-        [Description("Enable plugin")]
+        [Description("Whether the plugin is enabled")]
         public bool IsEnabled { get; set; } = true;
 
-        [Description("Debug mode")]
-        public bool Debug { get; set; } = false;
+        [Description("Debug mode (shows detailed logs)")]
+        public bool Debug { get; set; } = true;
 
         [Description("Enable corpse cleanup")]
         public bool EnableCorpseCleanup { get; set; } = true;
@@ -35,20 +36,33 @@ namespace CleanMaster
         [Description("Enable loose items cleanup")]
         public bool EnableItemCleanup { get; set; } = true;
 
-        [Description("List of item types that should never be cleaned (e.g. MicroHID, KeycardO5)")]
+        [Description("List of protected item types")]
         public List<ItemType> ProtectedItems { get; set; } = new List<ItemType>
         {
             ItemType.MicroHID,
             ItemType.KeycardO5,
+            ItemType.KeycardFacilityManager,
+            ItemType.KeycardContainmentEngineer,
+            ItemType.KeycardScientist,
             ItemType.SCP330,
             ItemType.SCP268,
             ItemType.SCP207,
-            ItemType.SCP1576, // SCP-1344
+            ItemType.SCP1576,
             ItemType.Jailbird,
-            ItemType.ParticleDisruptor
+            ItemType.ParticleDisruptor,
+            ItemType.Coin,
+            ItemType.GrenadeFlash,
+            ItemType.GrenadeHE,
+            ItemType.Radio
         };
 
         [Description("Permission required to use the clean command")]
         public string CleanCommandPermission { get; set; } = "cleanmaster.clean";
+
+        [Description("Enable C.A.S.S.I.E cleanup announcements")]
+        public bool EnableCleanupAnnouncements { get; set; } = true;
+
+        [Description("C.A.S.S.I.E announcement text")]
+        public string CleanupAnnouncementText { get; set; } = "Cleanup complete. Removed {items} items and {corpses} corpses";
     }
 }

@@ -10,51 +10,45 @@ namespace CleanMaster
     {
         public string Command => "clean";
         public string[] Aliases => Array.Empty<string>();
-        public string Description => "Toggles CleanMaster cleanup functionality";
+        public string Description => "Controls CleanMaster functionality";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            // Проверка прав
             if (!sender.CheckPermission(CleanMaster.Singleton.Config.CleanCommandPermission))
             {
-                response = "You don't have permission to use this command!";
+                response = "No permission! Required: " + CleanMaster.Singleton.Config.CleanCommandPermission;
                 return false;
             }
 
-            // Проверка аргументов
             if (arguments.Count == 0)
             {
-                response = $"Current cleanup status: {(CleanMaster.Singleton.IsCleanupEnabled ? "ENABLED" : "DISABLED")}\n" +
-                          "Usage: clean <enable|disable|toggle>";
+                response = $"Current status: {(CleanMaster.Singleton.IsCleanupEnabled ? "ENABLED" : "DISABLED")}";
                 return false;
             }
 
-            // Обработка команды (совместимая с C# 7.3)
-            string action = arguments.At(0).ToLower();
-            bool? newState = null;
+            switch (arguments.At(0).ToLower())
+            {
+                case "enable":
+                case "on":
+                    CleanMaster.Singleton.IsCleanupEnabled = true;
+                    response = "Cleanup ENABLED";
+                    return true;
 
-            if (action == "enable" || action == "true" || action == "on")
-            {
-                newState = true;
-            }
-            else if (action == "disable" || action == "false" || action == "off")
-            {
-                newState = false;
-            }
-            else if (action == "toggle")
-            {
-                newState = !CleanMaster.Singleton.IsCleanupEnabled;
-            }
+                case "disable":
+                case "off":
+                    CleanMaster.Singleton.IsCleanupEnabled = false;
+                    response = "Cleanup DISABLED";
+                    return true;
 
-            if (!newState.HasValue)
-            {
-                response = "Invalid argument. Use: enable, disable, toggle, true, false, on, off";
-                return false;
-            }
+                case "toggle":
+                    CleanMaster.Singleton.IsCleanupEnabled = !CleanMaster.Singleton.IsCleanupEnabled;
+                    response = $"Cleanup {(CleanMaster.Singleton.IsCleanupEnabled ? "ENABLED" : "DISABLED")}";
+                    return true;
 
-            CleanMaster.Singleton.IsCleanupEnabled = newState.Value;
-            response = $"CleanMaster cleanup has been {(newState.Value ? "ENABLED" : "DISABLED")}";
-            return true;
+                default:
+                    response = "Invalid argument. Use: enable, disable, toggle";
+                    return false;
+            }
         }
     }
 }
